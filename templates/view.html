@@ -1,0 +1,14 @@
+$def with (post)
+
+   	   <h1>$post.producto</h1>
+
+   	   $datestr(post.posted_on)<br/>
+
+   	 
+   	 	Producto  :$post.producto <br/>
+   		Descripcion  :$post.descripcion <br/>
+   	  	Existencias  :$post.existencias <br/>
+		Precio_compra  :$post.precio_compra <br/>
+   	   	Precio_venta  :$post.precio_venta <br/>
+   	   	Imagen			:<img src='../static/images/$post.imagen_producto'>
+   	
